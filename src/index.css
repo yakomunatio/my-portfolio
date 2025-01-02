@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*================= my colors=============== */
+:root {
+    --primary: #000;
+    --secondary: #18181b;
+    --border: rgba(63, 63, 70, 0.4);
+    --blue: rgb(93, 188, 252);
+
+    --title: rgb(244, 244, 245);
+    --subtitle: rgb(161, 161, 170);
+
+    --bgHeader: rgb(39, 39, 42);
+    --icon-hover:#d4d4d8;
+    
+}
+
+.light{
+    --primary: #fff;
+    --secondary: #F5F5F5;
+    --border: rgba(202, 202, 202, 0.5);
+    --blue: rgb(0, 149, 253);
+
+    --title: rgb(39, 39, 42);
+    --subtitle: rgb(82, 82, 91);
+
+    --bgHeader: rgb(253, 253, 253);
+    --icon-hover:#333;
+    
+}
+
+
+html {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.1px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--primary);
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+::-webkit-scrollbar {
+    width: 0.6rem;
+   }
+   
+  ::-webkit-scrollbar-track {
+    border: 2px solid var(--secondary);
+    border-radius: 4px;
+    background-color: var(--secondary);
+    }
+   
+  ::-webkit-scrollbar-thumb {
+    background: rgb(93, 188, 252);
+    border-radius: 2px;
+  }
+   
+   
+  /* for Firefox */
+   
+
+
+.container {
+    padding-inline: 3rem;
+    border: var(--border) 2px solid;
+    width: 90%;
+    margin: auto;
+    left: auto;
+    background: var(--secondary);
+}
+
+.line {
+    border-bottom: 1px solid var(--border);
+    margin: 3rem 0;
+
+    width: calc(100% + 3rem + 3rem);
+    margin-left: -3rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.border {
+    border: 2px solid red;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+button:active {
+    scale: 0.95;
+}
+
+button:disabled{
+    opacity: 0.4;
+    cursor: progress;
+    scale: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    transition: 0.2s;
+    text-decoration: none;
+    color: initial;
+}
+
+.scroll-to-up{
+    position: fixed;
+    bottom: 2rem;
+    right: 1%;
+    background-color: rgb(93, 188, 252);
+    color: var(--primary);
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 50%;
+    padding: 0.5rem;
+    border: 1px solid#ffffff83;
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+    .container {
+        width: 90%;
+        padding: 0 1.7rem;
+    }
+    .line{
+        width: calc(100% + 1.7rem + 1.7rem);
+        margin-left: -1.7rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 98%;
+        padding: 0 1.7rem;
+    }
+
+    .scroll-to-up{
+        opacity: 0.5;
+    }
+}

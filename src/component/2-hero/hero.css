@@ -1,0 +1,92 @@
+
+/* ==========================
+    table of content
+    =========================
+
+    1-left saide
+    2-right side
+    
+*/
+
+
+
+/* ( 1 )============left side desing============ */
+section.hero {
+    margin-top: 3rem;
+}
+
+section.hero .avatar-contaner.flex {
+    align-items: end;
+    gap: 0.6rem;
+
+}
+
+
+section.hero .left-side {
+    flex-grow: 1;
+}
+
+section.hero .icon-verified {
+    color: var(--blue);
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+section.hero .avatar {
+    width: 88px;
+    border-radius: 50%;
+    border: 1px solid darkorange;
+    padding: 1px;
+
+    box-shadow: 2px 2px 40px #ffffff70 inset;  
+}
+
+section.hero h1.title{
+    font-size: 2.85rem;
+    line-height: 3rem;
+    margin-block: 24px;
+
+    color: var(--title);
+}
+
+section.hero h1.sub-title{
+    font-size: 2rem;
+    margin-block: 24px;
+    color: var(--title);
+}
+
+section.hero p.sub-title{
+    color: var(--subtitle);
+    font-size: 0.9rem;
+    line-height: 1.65rem;
+    margin-bottom: 32px;
+}
+
+/* <=========icons desing=============> */
+
+section.hero .icons{
+    font-size: 1.3rem;
+    gap: 1.5rem;
+    color: var(--subtitle);
+    transition: 0.2s;
+}
+
+section.hero .icons .icon{
+    transition: 0.2s;
+    cursor: pointer;
+    color: var(--subtitle);
+}
+
+section.hero .icons .icon:hover{
+    font-size: 1.4rem;
+    color: var(--icon-hover);
+}
+
+
+/* ============End of left side desing============ */
+
+/* ( 2 )============right side desing=====(animation)======= */
+.animation{
+    width: 100%;
+    translate: 10%;
+}

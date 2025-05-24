@@ -99,6 +99,7 @@ section.contact-us .sent{
 
     section.contact-us .submit{
         width: 30%;
+        margin-left: auto;
     }
 }
 

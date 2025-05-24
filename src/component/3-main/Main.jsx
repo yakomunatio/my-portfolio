@@ -95,10 +95,9 @@ const Main = () => {
                 <div className="flex icons">
                   <div style={{ gap: "10px" }} className="flex">
                     <div className="icon-link"></div>
-                    <div className="icon-github"></div>
+                    <a href="https://github.com/yakomunatio" target="blanc"> <div className="icon-github"> </div> </a>
                   </div>
-
-                  <a className="more flex" href="">
+                  <a className="more flex" href="https://github.com/yakomunatio?tab=repositories" target="blanc">
                     more
                     <span
                       style={{ alignSelf: "end" }}

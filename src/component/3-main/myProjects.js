@@ -24,15 +24,27 @@ export const myProjects = [
       decription:"A line-following robot that uses IR sensors to detect and follow a predefined path automatically. This project showcases skills in sensor integration, Arduino programming, and robotics for autonomous navigation.",
     },
     {
+      projectTitle: "Forest Fire Detection",
+      category: "o",
+      imagepath: "./public/forestFireDetection.png",
+      decription:"A forest fire detection system using ESP32 with flame and gas sensors, managed by a Raspberry Pi. Data is displayed on a Thingsboard dashboard, with real-time alerts for fire detection. This project highlights expertise in IoT, sensor integration, and remote monitoring.",
+    },
+    {
       projectTitle: "Smart Home",
       category: "o",
       imagepath: "./public/smartHome.jpg",
       decription:"A smart home system that integrates ESP32 and ESP8266 modules for seamless communication via MQTT, allowing remote control of home devices. The system includes motion detection with an ESP32-S3 WROOM camera, sending email alerts with photos. This project demonstrates expertise in IoT, real-time monitoring, and home automation.",
     },
     {
-      projectTitle: "Forest Fire Detection",
+      projectTitle: "Smart Hotel system",
       category: "o",
-      imagepath: "./public/forestFireDetection.png",
-      decription:"A forest fire detection system using ESP32 with flame and gas sensors, managed by a Raspberry Pi. Data is displayed on a Thingsboard dashboard, with real-time alerts for fire detection. This project highlights expertise in IoT, sensor integration, and remote monitoring.",
+      imagepath: "./public/smartHotel.jpg",
+      decription:"A smart hotel management system integrating ESP32 and Raspberry Pi modules, enabling seamless communication via MQTT. The system monitors room occupancy, controls lighting and climate settings remotely, and uses cameras for real-time surveillance. It features automated alerts and dashboards for staff, showcasing skills in IoT, smart building automation, and real-time data processing.",
+    },
+    {
+      projectTitle: "Traffic management",
+      category: "o",
+      imagepath: "./public/trafficManagement.jpg",
+      decription:"A smart traffic management system integrating ESP8266, Raspberry Pi, and radar modules, enabling seamless communication via MQTT. The system monitors vehicle speeds in real time, calculates average speed between two checkpoints, and displays dynamic speed limits based on weather conditions. It features automated alerts for speed violations and data storage for further analysis, showcasing skills in IoT, embedded systems, and real-time data processing.",
     },
   ];

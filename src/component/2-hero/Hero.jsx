@@ -61,8 +61,8 @@ const Hero = () => {
 
       <div className="icons flex">
         <a className="icon icon-github"    href="https://github.com/yakomunatio" target="blank"></a >
-        <a className="icon icon-linkedin"  href="www.linkedin.com/in/achhachar" target="blank"></a >
-        <a className="icon icon-instagram" href="https://www.instagram.com/yassin.achhachar" target="blank"></a >
+        <a className="icon icon-linkedin"  href="https://www.linkedin.com/in/achhachar" target="blank"></a >
+        <a className="icon icon-instagram" href="https://www.instagram.com/yassine.achhachar" target="blank"></a >
         <a className="icon icon-twitter"   href="https://x.com/achhchar_y" target="blank"></a >
       </div>
       </div>

@@ -2,7 +2,7 @@ export const myProjects = [
     {
       projectTitle: "spotfo",
       category: "js",
-      imagepath: "./public/spotfo.png",
+      imagepath: "./spotfo.png",
       decription:"A music website designed using HTML, CSS, and JavaScript, offering a clean and intuitive user interface for exploring and streaming tracks. This project highlights expertise in vanilla web development and crafting responsive, user-friendly designs.",
     },
     {

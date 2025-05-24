@@ -14,7 +14,7 @@ export const myProjects = [
     {
       projectTitle: "Portfolio",
       category: "react",
-      imagepath: "./portfolio.png",
+      imagepath: "./Portfolio.png",
       decription:"A personal portfolio website using HTML, CSS, and JavaScript to showcase projects, skills, and achievements. This website emphasizes clean design, responsive layouts, and an intuitive user experience, serving as a central platform for professional presentation.",
     },
     {

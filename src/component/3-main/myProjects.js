@@ -1,19 +1,19 @@
 export const myProjects = [
     {
       projectTitle: "spotfo",
-      category: "js",
+      category: "dev-web",
       imagepath: "./spotfo.png",
       decription:"A music website designed using HTML, CSS, and JavaScript, offering a clean and intuitive user interface for exploring and streaming tracks. This project highlights expertise in vanilla web development and crafting responsive, user-friendly designs.",
     },
     {
       projectTitle: "Sidi Ali",
-      category: "css",
+      category: "dev-web",
       imagepath: "./SidiAli.png",
       decription:"An informative webpage about Sidi Ali using only HTML and CSS. This project focuses on mastering fundamental web development skills and creating a visually appealing, static website to convey company information effectively.",
     },
     {
       projectTitle: "Portfolio",
-      category: "react",
+      category: "dev-web",
       imagepath: "./Portfolio.png",
       decription:"A personal portfolio website using react framework to showcase projects, skills, and achievements. This website emphasizes clean design, responsive layouts, and an intuitive user experience, serving as a central platform for professional presentation.",
     },

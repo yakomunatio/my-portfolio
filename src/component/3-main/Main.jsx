@@ -23,49 +23,50 @@ const Main = () => {
         </button>
 
         <button
-          className={isActive === "Css" ? "active" : null}
+          className={isActive === "dev-web" ? "active" : null}
           onClick={() => {
-            setisActive("Css");
+            setisActive("dev-web");
 
             const filtred = myProjects.filter((item) => {
-              return item.category === "css";
+              return item.category === "dev-web";
             });
 
             setArr(filtred);
           }}
         >
-          HTML & Css
+          dev-web
         </button>
 
         <button
-          className={isActive === "Js" ? "active" : null}
+          className={isActive === "robotics" ? "active" : null}
           onClick={() => {
-            setisActive("Js");
+            setisActive("robotics");
 
             const filtred = myProjects.filter((item) => {
-              return item.category === "js";
+              return item.category === "robotics";
             });
 
             setArr(filtred);
           }}
         >
-          JavaScript
+          Robotics
         </button>
 
         <button
-          className={isActive === "React" ? "active" : null}
+          className={isActive === "IoT" ? "active" : null}
           onClick={() => {
-            setisActive("React");
+            setisActive("IoT");
 
             const filtred = myProjects.filter((item) => {
-              return item.category === "react";
+              return item.category === "IoT";
             });
 
             setArr(filtred);
           }}
         >
-          React
+          IoT
         </button>
+
 
         <button
           className={isActive === "O" ? "active" : null}
